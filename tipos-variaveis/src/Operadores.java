@@ -36,7 +36,11 @@ public class Operadores {
 
         //repetição (incrementando)
 
-                
+         int numero = 5;
+         
+         numero = numero + 2;
+
+         System.out.println(numero);
     }
 
 }
