@@ -1,9 +1,9 @@
 public class Operadores {
     public static void main(String[] args) {
-        //Concatenação
-       // String nomeCompleto = "LINGUAGEM" + " JAVA";
+        //Concatenação com +
+       /*String nomeCompleto = "LINGUAGEM" + " JAVA";
 
-        //System.out.println(nomeCompleto);
+        System.out.println(nomeCompleto);
 
         String concatenacao = "?";
 
@@ -20,7 +20,22 @@ public class Operadores {
         System.out.println(concatenacao);
 
         concatenacao ="1"+(1+1+1);
-        System.out.println(concatenacao);
+        System.out.println(concatenacao);*/
+
+        //Operadores Unários
+        
+        /*int numero = 5;
+
+        numero = - numero;
+
+        System.out.println(numero);
+
+        numero = numero * -1; //para tornar o numero positivo novamente
+
+        System.out.println(numero);*/
+
+        //repetição (incrementando)
+
                 
     }
 
