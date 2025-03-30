@@ -44,14 +44,46 @@ public class Operadores {
 
         //Operador Ternário
 
-        int a, b;
+        /*int a, b;
 
         a = 5;
         b = 6;
 
         String resultado = a==b ? "verdadeiro" : "falso";//se a for = a b verdadeiro, se não falso
        
-        System.out.println(resultado);
+        System.out.println(resultado);*/
+
+        //Operadores Relacionais (utilizado para numeros, para objetos utiliza-se equals)
+
+        /*int numero1 = 1;
+        int numero2 = 2;
+
+        boolean simNao = numero1 == numero2;
+        
+    System.out.println("numero um é igual a numero dois? " + simNao);
+
+    simNao = numero1 != numero2;
+
+    System.out.println("numero um é diferente de numero dois? " + simNao);
+
+    simNao = numero1 > numero2;
+
+    System.out.println("numero um é maior que numero dois? " + simNao);*/
+
+    //Operadores Lógicos
+    
+    boolean condicao1 = true;
+    boolean condicao2 = false;
+
+    if(condicao1 && condicao2){
+        System.out.println("As duas condições são verdadeiras");
+    }
+    if(condicao1 || condicao2){
+        System.out.println("Uma das condições é verdadeira");
+    }
+    
+    System.out.println("Fim");
+
     }
 
 }
