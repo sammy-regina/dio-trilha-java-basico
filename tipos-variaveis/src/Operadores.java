@@ -36,11 +36,22 @@ public class Operadores {
 
         //repetição (incrementando)
 
-         int numero = 5;
+        /*int numero = 5;
          
-         numero = numero + 2;
+        numero = numero + 2;
 
-         System.out.println(numero);
+        System.out.println(numero);*/
+
+        //Operador Ternário
+
+        int a, b;
+
+        a = 5;
+        b = 6;
+
+        String resultado = a==b ? "verdadeiro" : "falso";//se a for = a b verdadeiro, se não falso
+       
+        System.out.println(resultado);
     }
 
 }
