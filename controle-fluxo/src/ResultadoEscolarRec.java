@@ -6,11 +6,11 @@ public class ResultadoEscolarRec {
         System.out.println("Aprovado");
         
         else if(nota >= 5 && nota < 7)
-        System.out.println("Prova recuperação");
+        System.out.println("Prova Recuperação");
 
         else
         System.out.println("Reprovado");
-
+            
     }
 
 }
